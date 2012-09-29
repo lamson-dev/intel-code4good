@@ -7,6 +7,12 @@ a:visited
 {
 	text-decoration:none;
 }
+.logo
+{
+	position:absolute;
+	top:0;
+	left: 170px;
+}
 .center{
 	width:75%;
 	text-align:center;
@@ -40,12 +46,12 @@ a:visited
 	float:right;
 	background-image:url(../lock.gif);
 }
-.logo
+.framepage
 {
-	position:absolute;
-	top:0;
-	left: 170px;
+ 	margin-left: 50px;
+	margin-top: 100px;
 }
+
 #header {height: 3em; background: #000000;}
 #main {height: 95%; width: 65%; background: #ffffff; padding-top: 2em; padding-bottom: 2em; margin:auto;}
 #footer {height: 2em; padding: 1em; text-align: center; background: #000000; color: #ffffff;}
