@@ -1,4 +1,4 @@
-<?php include_layout_template('layouts/header.php'); ?>
+<?php require_once('layouts/header.php'); ?>
     <div class="menu">
         <a href="http://www.w3schools.com" target="content">
             <div class="menu_block">Game</div> 
@@ -15,4 +15,4 @@
         </iframe>
     </div>
 
-<?php include_layout_template('layouts/footer.php'); ?>  
+<?php require_once('layouts/footer.php'); ?>  
