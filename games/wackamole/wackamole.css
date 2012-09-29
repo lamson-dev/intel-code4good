@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* 
 	Son Nguyen
 	
@@ -15,22 +14,4 @@ body {
 canvas {
   background-color: #FFF;
   border: 1px solid #999;
-=======
-/* 
-	Son Nguyen
-	
-	css style sheet for wackamole.html											
-*/
-
-body {
-	font-family: cursive;
-	font-size: 14pt;
-	text-align: center;	
-	background-color: #CCC;
-}
-
-canvas {
-  background-color: #FFF;
-  border: 1px solid #999;
->>>>>>> ac9dd56d737d9347102bf97ea5da025b6ebcf909
 }

@@ -10,11 +10,11 @@ class Database {
 		}
 			
 		public function openConnection() {	
-			$this->connection = mysql_connect("localhost", "root", "");
+			$this->connection = mysql_connect("localhost", "lamson5_dummy", "whocares");
 			if(!$this->connection) {
 				die("Sorry! Database connection failed " . mysql_error());	
 			} else {
-				$db_select = mysql_select_db("hackathon", $this->connection);	
+				$db_select = mysql_select_db("lamson5_test", $this->connection);	
 				if (!$db_select) {
 					die("Database selection failed: " . mysql_error());
 				}	

@@ -37,6 +37,8 @@ function drop(m_event)
 		numCorrect += 1;
 		if(numCorrect == MAX_CORRECT)
 		{
+			alert("You WON ANOTHER GAMMMMMEEEE! YAHOOOOOOO!!!!");
+			window.location.href = "http://projects.lamson.me/intel/games/LightOutGame/index.html";
 			// Win. Enter what you want to do after winning
 		}
 	}

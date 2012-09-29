@@ -1,4 +1,7 @@
 // JavaScript Document
+var numCorrect = 0;
+var MAX_CORRECT = 4;
+
 function allowDrop(m_event)
 {
 	m_event.preventDefault();
@@ -39,6 +42,16 @@ function drop(m_event)
 				'background-position': "center center"
 			}
 		);
+		
+		numCorrect += 1;		
+		if(numCorrect == MAX_CORRECT)
+		{
+
+/* 			var rtnAddress = <?php $rtnAddress; ?> */
+			alert("woohooo! You unlocked 1 GAME!!!");
+			window.location.href = "http://lamson.me/projects/intel/games/15puzzle/index.php";
+
+		}
 	}
 }
 

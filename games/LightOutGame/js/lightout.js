@@ -7,8 +7,8 @@ var OFF = 0;
 var ON = 1;
 var SIZE_GAME_BOARD = 5;
 //var cellLightState = [[ON, ON, OFF, ON, ON], [OFF, OFF, OFF, OFF, OFF], [ON, ON, OFF, ON, ON], [OFF, OFF, OFF, OFF, ON], [ON, ON, OFF, OFF, OFF]]; 
-//var cellLightState = [[ON, OFF, OFF, OFF, ON], [ON, ON, OFF, ON, ON], [OFF, OFF, ON, OFF, OFF], [ON, OFF, ON, OFF, OFF], [ON, OFF, ON, ON, OFF]]; 
-var cellLightState = [[ON, ON, ON, ON, ON], [ON, ON, ON, ON, ON], [ON, ON, ON, ON, ON], [ON, ON, ON, ON, ON], [ON, ON, ON, ON, ON]];
+var cellLightState = [[ON, OFF, OFF, OFF, ON], [ON, ON, OFF, ON, ON], [OFF, OFF, ON, OFF, OFF], [ON, OFF, ON, OFF, OFF], [ON, OFF, ON, ON, OFF]]; 
+//var cellLightState = [[ON, ON, ON, ON, ON], [ON, ON, ON, ON, ON], [ON, ON, ON, ON, ON], [ON, ON, ON, ON, ON], [ON, ON, ON, ON, ON]];
 var lightStateImg = ["img/lightOff.png", "img/lightOn.png"]; 
 var flagWin = false;
 
