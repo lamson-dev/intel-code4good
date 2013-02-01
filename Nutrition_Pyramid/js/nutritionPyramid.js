@@ -49,7 +49,7 @@ function drop(m_event)
 
 /* 			var rtnAddress = <?php $rtnAddress; ?> */
 			alert("woohooo! You unlocked 1 GAME!!!");
-			window.location.href = "http://lamson.me/projects/intel/games/15puzzle/index.php";
+			window.location.href = "http://lamson.me/projects/intel/games/wackamole/wackamole.html";
 
 		}
 	}
